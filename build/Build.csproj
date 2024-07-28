@@ -8,6 +8,7 @@
     <!-- Make sure start same folder .NET Core CLI and Visual Studio -->
     <RunWorkingDirectory>$(MSBuildProjectDirectory)</RunWorkingDirectory>
     <Configurations>Debug;Release;Build</Configurations>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>

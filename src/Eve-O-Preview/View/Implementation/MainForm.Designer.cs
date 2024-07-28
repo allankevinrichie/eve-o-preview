@@ -1,4 +1,4 @@
-using System.Drawing;
+Ôªøusing System.Drawing;
 using System.Windows.Forms;
 
 namespace EveOPreview.View
@@ -57,8 +57,8 @@ namespace EveOPreview.View
             System.Windows.Forms.Label CreditMaintLabel;
             System.Windows.Forms.Label DocumentationLinkLabel;
             System.Windows.Forms.Label DescriptionLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             System.Windows.Forms.Label NameLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.MinimizeInactiveClientsCheckBox = new System.Windows.Forms.CheckBox();
             this.EnableClientLayoutTrackingCheckBox = new System.Windows.Forms.CheckBox();
             this.HideActiveClientThumbnailCheckBox = new System.Windows.Forms.CheckBox();
@@ -88,7 +88,6 @@ namespace EveOPreview.View
             this.ShowThumbnailOverlaysCheckBox = new System.Windows.Forms.CheckBox();
             this.ShowThumbnailFramesCheckBox = new System.Windows.Forms.CheckBox();
             this.ThumbnailsList = new System.Windows.Forms.CheckedListBox();
-            this.VersionLabel = new System.Windows.Forms.Label();
             this.DocumentationLink = new System.Windows.Forms.LinkLabel();
             this.NotifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.TrayMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -143,14 +142,14 @@ namespace EveOPreview.View
             // 
             RestoreWindowMenuItem.Name = "RestoreWindowMenuItem";
             RestoreWindowMenuItem.Size = new System.Drawing.Size(279, 22);
-            RestoreWindowMenuItem.Text = "ª÷∏¥";
+            RestoreWindowMenuItem.Text = "ÊÅ¢Â§ç";
             RestoreWindowMenuItem.Click += new System.EventHandler(this.RestoreMainForm_Handler);
             // 
             // ExitMenuItem
             // 
             ExitMenuItem.Name = "ExitMenuItem";
             ExitMenuItem.Size = new System.Drawing.Size(279, 22);
-            ExitMenuItem.Text = "ÕÀ≥ˆ";
+            ExitMenuItem.Text = "ÈÄÄÂá∫";
             ExitMenuItem.Click += new System.EventHandler(this.ExitMenuItemClick_Handler);
             // 
             // TitleMenuItem
@@ -158,7 +157,7 @@ namespace EveOPreview.View
             TitleMenuItem.Enabled = false;
             TitleMenuItem.Name = "TitleMenuItem";
             TitleMenuItem.Size = new System.Drawing.Size(279, 22);
-            TitleMenuItem.Text = "EVE-O Preview - ∫∫ªØ∞Ê - 20240728";
+            TitleMenuItem.Text = "EVE-O Preview - Ê±âÂåñÁâà - 20240728";
             // 
             // SeparatorMenuItem
             // 
@@ -195,7 +194,7 @@ namespace EveOPreview.View
             GeneralTabPage.Padding = new System.Windows.Forms.Padding(3);
             GeneralTabPage.Size = new System.Drawing.Size(362, 293);
             GeneralTabPage.TabIndex = 0;
-            GeneralTabPage.Text = "Õ®”√";
+            GeneralTabPage.Text = "ÈÄöÁî®";
             // 
             // GeneralSettingsPanel
             // 
@@ -220,7 +219,7 @@ namespace EveOPreview.View
             this.MinimizeInactiveClientsCheckBox.Name = "MinimizeInactiveClientsCheckBox";
             this.MinimizeInactiveClientsCheckBox.Size = new System.Drawing.Size(150, 16);
             this.MinimizeInactiveClientsCheckBox.TabIndex = 24;
-            this.MinimizeInactiveClientsCheckBox.Text = "◊Ó–°ªØ∑«ªÓ∂ØEVEøÕªß∂À";
+            this.MinimizeInactiveClientsCheckBox.Text = "ÊúÄÂ∞èÂåñÈùûÊ¥ªÂä®EVEÂÆ¢Êà∑Á´Ø";
             this.MinimizeInactiveClientsCheckBox.UseVisualStyleBackColor = true;
             this.MinimizeInactiveClientsCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -231,7 +230,7 @@ namespace EveOPreview.View
             this.EnableClientLayoutTrackingCheckBox.Name = "EnableClientLayoutTrackingCheckBox";
             this.EnableClientLayoutTrackingCheckBox.Size = new System.Drawing.Size(108, 16);
             this.EnableClientLayoutTrackingCheckBox.TabIndex = 19;
-            this.EnableClientLayoutTrackingCheckBox.Text = "∏˙◊ŸøÕªß∂ÀŒª÷√";
+            this.EnableClientLayoutTrackingCheckBox.Text = "Ë∑üË∏™ÂÆ¢Êà∑Á´Ø‰ΩçÁΩÆ";
             this.EnableClientLayoutTrackingCheckBox.UseVisualStyleBackColor = true;
             this.EnableClientLayoutTrackingCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -244,7 +243,7 @@ namespace EveOPreview.View
             this.HideActiveClientThumbnailCheckBox.Name = "HideActiveClientThumbnailCheckBox";
             this.HideActiveClientThumbnailCheckBox.Size = new System.Drawing.Size(174, 16);
             this.HideActiveClientThumbnailCheckBox.TabIndex = 20;
-            this.HideActiveClientThumbnailCheckBox.Text = "“˛≤ÿªÓ∂ØEVEøÕªß∂À‘§¿¿¥∞ø⁄";
+            this.HideActiveClientThumbnailCheckBox.Text = "ÈöêËóèÊ¥ªÂä®EVEÂÆ¢Êà∑Á´ØÈ¢ÑËßàÁ™óÂè£";
             this.HideActiveClientThumbnailCheckBox.UseVisualStyleBackColor = true;
             this.HideActiveClientThumbnailCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -258,7 +257,7 @@ namespace EveOPreview.View
             this.ShowThumbnailsAlwaysOnTopCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ShowThumbnailsAlwaysOnTopCheckBox.Size = new System.Drawing.Size(156, 16);
             this.ShowThumbnailsAlwaysOnTopCheckBox.TabIndex = 21;
-            this.ShowThumbnailsAlwaysOnTopCheckBox.Text = "±£≥÷‘§¿¿¥∞ø⁄◊‹‘⁄◊Ó…œ≤„";
+            this.ShowThumbnailsAlwaysOnTopCheckBox.Text = "‰øùÊåÅÈ¢ÑËßàÁ™óÂè£ÊÄªÂú®ÊúÄ‰∏äÂ±Ç";
             this.ShowThumbnailsAlwaysOnTopCheckBox.UseVisualStyleBackColor = true;
             this.ShowThumbnailsAlwaysOnTopCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -271,7 +270,7 @@ namespace EveOPreview.View
             this.HideThumbnailsOnLostFocusCheckBox.Name = "HideThumbnailsOnLostFocusCheckBox";
             this.HideThumbnailsOnLostFocusCheckBox.Size = new System.Drawing.Size(198, 16);
             this.HideThumbnailsOnLostFocusCheckBox.TabIndex = 22;
-            this.HideThumbnailsOnLostFocusCheckBox.Text = "“˛≤ÿ∑«ªÓ∂ØEVEøÕªß∂Àµƒ‘§¿¿¥∞ø⁄";
+            this.HideThumbnailsOnLostFocusCheckBox.Text = "ÈöêËóèÈùûÊ¥ªÂä®EVEÂÆ¢Êà∑Á´ØÁöÑÈ¢ÑËßàÁ™óÂè£";
             this.HideThumbnailsOnLostFocusCheckBox.UseVisualStyleBackColor = true;
             this.HideThumbnailsOnLostFocusCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -284,7 +283,7 @@ namespace EveOPreview.View
             this.EnablePerClientThumbnailsLayoutsCheckBox.Name = "EnablePerClientThumbnailsLayoutsCheckBox";
             this.EnablePerClientThumbnailsLayoutsCheckBox.Size = new System.Drawing.Size(150, 16);
             this.EnablePerClientThumbnailsLayoutsCheckBox.TabIndex = 23;
-            this.EnablePerClientThumbnailsLayoutsCheckBox.Text = "√ø∏ˆEVEøÕªß∂À≤ºæ÷∂¿¡¢";
+            this.EnablePerClientThumbnailsLayoutsCheckBox.Text = "ÊØè‰∏™EVEÂÆ¢Êà∑Á´ØÂ∏ÉÂ±ÄÁã¨Á´ã";
             this.EnablePerClientThumbnailsLayoutsCheckBox.UseVisualStyleBackColor = true;
             this.EnablePerClientThumbnailsLayoutsCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -295,7 +294,7 @@ namespace EveOPreview.View
             this.MinimizeToTrayCheckBox.Name = "MinimizeToTrayCheckBox";
             this.MinimizeToTrayCheckBox.Size = new System.Drawing.Size(120, 16);
             this.MinimizeToTrayCheckBox.TabIndex = 18;
-            this.MinimizeToTrayCheckBox.Text = "◊Ó–°ªØµΩœµÕ≥Õ–≈Ã";
+            this.MinimizeToTrayCheckBox.Text = "ÊúÄÂ∞èÂåñÂà∞Á≥ªÁªüÊâòÁõò";
             this.MinimizeToTrayCheckBox.UseVisualStyleBackColor = true;
             this.MinimizeToTrayCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -303,12 +302,12 @@ namespace EveOPreview.View
             // 
             ThumbnailTabPage.BackColor = System.Drawing.SystemColors.Control;
             ThumbnailTabPage.Controls.Add(ThumbnailSettingsPanel);
-            ThumbnailTabPage.Location = new System.Drawing.Point(244, 4);
+            ThumbnailTabPage.Location = new System.Drawing.Point(124, 4);
             ThumbnailTabPage.Name = "ThumbnailTabPage";
             ThumbnailTabPage.Padding = new System.Windows.Forms.Padding(3);
-            ThumbnailTabPage.Size = new System.Drawing.Size(142, 193);
+            ThumbnailTabPage.Size = new System.Drawing.Size(362, 293);
             ThumbnailTabPage.TabIndex = 1;
-            ThumbnailTabPage.Text = "Àı¬‘Õº";
+            ThumbnailTabPage.Text = "Áº©Áï•Âõæ";
             // 
             // ThumbnailSettingsPanel
             // 
@@ -322,7 +321,7 @@ namespace EveOPreview.View
             ThumbnailSettingsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             ThumbnailSettingsPanel.Location = new System.Drawing.Point(3, 3);
             ThumbnailSettingsPanel.Name = "ThumbnailSettingsPanel";
-            ThumbnailSettingsPanel.Size = new System.Drawing.Size(136, 187);
+            ThumbnailSettingsPanel.Size = new System.Drawing.Size(356, 287);
             ThumbnailSettingsPanel.TabIndex = 19;
             // 
             // HeigthLabel
@@ -332,7 +331,7 @@ namespace EveOPreview.View
             HeigthLabel.Name = "HeigthLabel";
             HeigthLabel.Size = new System.Drawing.Size(65, 12);
             HeigthLabel.TabIndex = 24;
-            HeigthLabel.Text = "Àı¬‘Õº∏ﬂ∂»";
+            HeigthLabel.Text = "Áº©Áï•ÂõæÈ´òÂ∫¶";
             // 
             // WidthLabel
             // 
@@ -341,7 +340,7 @@ namespace EveOPreview.View
             WidthLabel.Name = "WidthLabel";
             WidthLabel.Size = new System.Drawing.Size(65, 12);
             WidthLabel.TabIndex = 23;
-            WidthLabel.Text = "Àı¬‘ÕºøÌ∂»";
+            WidthLabel.Text = "Áº©Áï•ÂõæÂÆΩÂ∫¶";
             // 
             // ThumbnailsWidthNumericEdit
             // 
@@ -416,17 +415,17 @@ namespace EveOPreview.View
             OpacityLabel.Name = "OpacityLabel";
             OpacityLabel.Size = new System.Drawing.Size(41, 12);
             OpacityLabel.TabIndex = 19;
-            OpacityLabel.Text = "Õ∏√˜∂»";
+            OpacityLabel.Text = "ÈÄèÊòéÂ∫¶";
             // 
             // ZoomTabPage
             // 
             this.ZoomTabPage.BackColor = System.Drawing.SystemColors.Control;
             this.ZoomTabPage.Controls.Add(ZoomSettingsPanel);
-            this.ZoomTabPage.Location = new System.Drawing.Point(244, 4);
+            this.ZoomTabPage.Location = new System.Drawing.Point(124, 4);
             this.ZoomTabPage.Name = "ZoomTabPage";
-            this.ZoomTabPage.Size = new System.Drawing.Size(142, 193);
+            this.ZoomTabPage.Size = new System.Drawing.Size(362, 293);
             this.ZoomTabPage.TabIndex = 2;
-            this.ZoomTabPage.Text = "Àı∑≈";
+            this.ZoomTabPage.Text = "Áº©Êîæ";
             // 
             // ZoomSettingsPanel
             // 
@@ -439,7 +438,7 @@ namespace EveOPreview.View
             ZoomSettingsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             ZoomSettingsPanel.Location = new System.Drawing.Point(0, 0);
             ZoomSettingsPanel.Name = "ZoomSettingsPanel";
-            ZoomSettingsPanel.Size = new System.Drawing.Size(142, 193);
+            ZoomSettingsPanel.Size = new System.Drawing.Size(362, 293);
             ZoomSettingsPanel.TabIndex = 36;
             // 
             // ZoomFactorLabel
@@ -449,7 +448,7 @@ namespace EveOPreview.View
             ZoomFactorLabel.Name = "ZoomFactorLabel";
             ZoomFactorLabel.Size = new System.Drawing.Size(53, 12);
             ZoomFactorLabel.TabIndex = 39;
-            ZoomFactorLabel.Text = "Àı∑≈±»¿˝";
+            ZoomFactorLabel.Text = "Áº©ÊîæÊØî‰æã";
             // 
             // ZoomAnchorPanel
             // 
@@ -574,7 +573,7 @@ namespace EveOPreview.View
             ZoomAnchorLabel.Name = "ZoomAnchorLabel";
             ZoomAnchorLabel.Size = new System.Drawing.Size(17, 12);
             ZoomAnchorLabel.TabIndex = 40;
-            ZoomAnchorLabel.Text = "øÚ";
+            ZoomAnchorLabel.Text = "Ê°Ü";
             // 
             // EnableThumbnailZoomCheckBox
             // 
@@ -586,7 +585,7 @@ namespace EveOPreview.View
             this.EnableThumbnailZoomCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EnableThumbnailZoomCheckBox.Size = new System.Drawing.Size(96, 16);
             this.EnableThumbnailZoomCheckBox.TabIndex = 36;
-            this.EnableThumbnailZoomCheckBox.Text = " Û±Í–¸Õ£Àı∑≈";
+            this.EnableThumbnailZoomCheckBox.Text = "Èº†Ê†áÊÇ¨ÂÅúÁº©Êîæ";
             this.EnableThumbnailZoomCheckBox.UseVisualStyleBackColor = true;
             this.EnableThumbnailZoomCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -619,11 +618,11 @@ namespace EveOPreview.View
             // 
             OverlayTabPage.BackColor = System.Drawing.SystemColors.Control;
             OverlayTabPage.Controls.Add(OverlaySettingsPanel);
-            OverlayTabPage.Location = new System.Drawing.Point(244, 4);
+            OverlayTabPage.Location = new System.Drawing.Point(124, 4);
             OverlayTabPage.Name = "OverlayTabPage";
-            OverlayTabPage.Size = new System.Drawing.Size(142, 193);
+            OverlayTabPage.Size = new System.Drawing.Size(362, 293);
             OverlayTabPage.TabIndex = 3;
-            OverlayTabPage.Text = "∏≤∏«≤„";
+            OverlayTabPage.Text = "Ë¶ÜÁõñÂ±Ç";
             // 
             // OverlaySettingsPanel
             // 
@@ -636,7 +635,7 @@ namespace EveOPreview.View
             OverlaySettingsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             OverlaySettingsPanel.Location = new System.Drawing.Point(0, 0);
             OverlaySettingsPanel.Name = "OverlaySettingsPanel";
-            OverlaySettingsPanel.Size = new System.Drawing.Size(142, 193);
+            OverlaySettingsPanel.Size = new System.Drawing.Size(362, 293);
             OverlaySettingsPanel.TabIndex = 25;
             // 
             // HighlightColorLabel
@@ -646,7 +645,7 @@ namespace EveOPreview.View
             this.HighlightColorLabel.Name = "HighlightColorLabel";
             this.HighlightColorLabel.Size = new System.Drawing.Size(29, 12);
             this.HighlightColorLabel.TabIndex = 29;
-            this.HighlightColorLabel.Text = "—’…´";
+            this.HighlightColorLabel.Text = "È¢úËâ≤";
             // 
             // ActiveClientHighlightColorButton
             // 
@@ -667,7 +666,7 @@ namespace EveOPreview.View
             this.EnableActiveClientHighlightCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EnableActiveClientHighlightCheckBox.Size = new System.Drawing.Size(108, 16);
             this.EnableActiveClientHighlightCheckBox.TabIndex = 27;
-            this.EnableActiveClientHighlightCheckBox.Text = "∏ﬂ¡¡ªÓ∂ØøÕªß∂À";
+            this.EnableActiveClientHighlightCheckBox.Text = "È´ò‰∫ÆÊ¥ªÂä®ÂÆ¢Êà∑Á´Ø";
             this.EnableActiveClientHighlightCheckBox.UseVisualStyleBackColor = true;
             this.EnableActiveClientHighlightCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -681,7 +680,7 @@ namespace EveOPreview.View
             this.ShowThumbnailOverlaysCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ShowThumbnailOverlaysCheckBox.Size = new System.Drawing.Size(84, 16);
             this.ShowThumbnailOverlaysCheckBox.TabIndex = 25;
-            this.ShowThumbnailOverlaysCheckBox.Text = "œ‘ æ∏≤∏«≤„";
+            this.ShowThumbnailOverlaysCheckBox.Text = "ÊòæÁ§∫Ë¶ÜÁõñÂ±Ç";
             this.ShowThumbnailOverlaysCheckBox.UseVisualStyleBackColor = true;
             this.ShowThumbnailOverlaysCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -695,7 +694,7 @@ namespace EveOPreview.View
             this.ShowThumbnailFramesCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ShowThumbnailFramesCheckBox.Size = new System.Drawing.Size(72, 16);
             this.ShowThumbnailFramesCheckBox.TabIndex = 26;
-            this.ShowThumbnailFramesCheckBox.Text = "œ‘ æ±ﬂøÚ";
+            this.ShowThumbnailFramesCheckBox.Text = "ÊòæÁ§∫ËæπÊ°Ü";
             this.ShowThumbnailFramesCheckBox.UseVisualStyleBackColor = true;
             this.ShowThumbnailFramesCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
             // 
@@ -703,11 +702,11 @@ namespace EveOPreview.View
             // 
             ClientsTabPage.BackColor = System.Drawing.SystemColors.Control;
             ClientsTabPage.Controls.Add(ClientsPanel);
-            ClientsTabPage.Location = new System.Drawing.Point(244, 4);
+            ClientsTabPage.Location = new System.Drawing.Point(124, 4);
             ClientsTabPage.Name = "ClientsTabPage";
-            ClientsTabPage.Size = new System.Drawing.Size(142, 193);
+            ClientsTabPage.Size = new System.Drawing.Size(362, 293);
             ClientsTabPage.TabIndex = 4;
-            ClientsTabPage.Text = "ªÓ∂ØøÕªß∂À";
+            ClientsTabPage.Text = "Ê¥ªÂä®ÂÆ¢Êà∑Á´Ø";
             // 
             // ClientsPanel
             // 
@@ -717,7 +716,7 @@ namespace EveOPreview.View
             ClientsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             ClientsPanel.Location = new System.Drawing.Point(0, 0);
             ClientsPanel.Name = "ClientsPanel";
-            ClientsPanel.Size = new System.Drawing.Size(142, 193);
+            ClientsPanel.Size = new System.Drawing.Size(362, 293);
             ClientsPanel.TabIndex = 32;
             // 
             // ThumbnailsList
@@ -728,9 +727,9 @@ namespace EveOPreview.View
             this.ThumbnailsList.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.ThumbnailsList.FormattingEnabled = true;
             this.ThumbnailsList.IntegralHeight = false;
-            this.ThumbnailsList.Location = new System.Drawing.Point(0, 25);
+            this.ThumbnailsList.Location = new System.Drawing.Point(0, 125);
             this.ThumbnailsList.Name = "ThumbnailsList";
-            this.ThumbnailsList.Size = new System.Drawing.Size(140, 166);
+            this.ThumbnailsList.Size = new System.Drawing.Size(360, 166);
             this.ThumbnailsList.TabIndex = 34;
             this.ThumbnailsList.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.ThumbnailsList_ItemCheck_Handler);
             // 
@@ -741,17 +740,17 @@ namespace EveOPreview.View
             ThumbnailsListLabel.Name = "ThumbnailsListLabel";
             ThumbnailsListLabel.Size = new System.Drawing.Size(131, 12);
             ThumbnailsListLabel.TabIndex = 33;
-            ThumbnailsListLabel.Text = "Àı¬‘Õº (—°÷–«ø÷∆“˛≤ÿ)";
+            ThumbnailsListLabel.Text = "Áº©Áï•Âõæ (ÈÄâ‰∏≠Âº∫Âà∂ÈöêËóè)";
             // 
             // AboutTabPage
             // 
             AboutTabPage.BackColor = System.Drawing.SystemColors.Control;
             AboutTabPage.Controls.Add(AboutPanel);
-            AboutTabPage.Location = new System.Drawing.Point(244, 4);
+            AboutTabPage.Location = new System.Drawing.Point(124, 4);
             AboutTabPage.Name = "AboutTabPage";
-            AboutTabPage.Size = new System.Drawing.Size(142, 193);
+            AboutTabPage.Size = new System.Drawing.Size(362, 293);
             AboutTabPage.TabIndex = 5;
-            AboutTabPage.Text = "πÿ”⁄";
+            AboutTabPage.Text = "ÂÖ≥‰∫é";
             // 
             // AboutPanel
             // 
@@ -760,13 +759,12 @@ namespace EveOPreview.View
             AboutPanel.Controls.Add(CreditMaintLabel);
             AboutPanel.Controls.Add(DocumentationLinkLabel);
             AboutPanel.Controls.Add(DescriptionLabel);
-            AboutPanel.Controls.Add(this.VersionLabel);
             AboutPanel.Controls.Add(NameLabel);
             AboutPanel.Controls.Add(this.DocumentationLink);
             AboutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             AboutPanel.Location = new System.Drawing.Point(0, 0);
             AboutPanel.Name = "AboutPanel";
-            AboutPanel.Size = new System.Drawing.Size(142, 193);
+            AboutPanel.Size = new System.Drawing.Size(362, 293);
             AboutPanel.TabIndex = 2;
             // 
             // CreditMaintLabel
@@ -777,7 +775,7 @@ namespace EveOPreview.View
             CreditMaintLabel.Padding = new System.Windows.Forms.Padding(8, 3, 8, 3);
             CreditMaintLabel.Size = new System.Drawing.Size(303, 18);
             CreditMaintLabel.TabIndex = 7;
-            CreditMaintLabel.Text = "‘≠◊˜’ﬂ: Phrynohyas Tig-Rah£¨∫∫ªØ: √¸‘À-aiyoggle";
+            CreditMaintLabel.Text = "Âéü‰ΩúËÄÖ: Phrynohyas Tig-RahÔºåÊ±âÂåñ: ÂëΩËøê-aiyoggle";
             // 
             // DocumentationLinkLabel
             // 
@@ -797,17 +795,8 @@ namespace EveOPreview.View
             DescriptionLabel.Padding = new System.Windows.Forms.Padding(8, 3, 8, 3);
             DescriptionLabel.Size = new System.Drawing.Size(261, 134);
             DescriptionLabel.TabIndex = 5;
-            DescriptionLabel.Text = resources.GetString("DescriptionLabel.Text");
-            // 
-            // VersionLabel
-            // 
-            this.VersionLabel.AutoSize = true;
-            this.VersionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.VersionLabel.Location = new System.Drawing.Point(133, 8);
-            this.VersionLabel.Name = "VersionLabel";
-            this.VersionLabel.Size = new System.Drawing.Size(132, 20);
-            this.VersionLabel.TabIndex = 4;
-            this.VersionLabel.Text = "build 20240728";
+            DescriptionLabel.Text = "EVE OnlineÂÆ¢Êà∑Á´ØÁöÑÈ´òÁ∫ß‰ªªÂä°ÂàáÊç¢Âô®„ÄÇ\r\n\r\nÁ®ãÂ∫è‰∏ç‰ºö\r\n‚Ä¢ ‰øÆÊîπEVEÂú®Á∫øÁïåÈù¢\r\n‚Ä¢ ÊòæÁ§∫‰øÆÊîπÂêéÁöÑEVE OnlineÁïåÈù¢\r\n‚Ä¢ ÂπøÊí≠‰ªª‰ΩïÈîÆÁõòÊàñÈº†Ê†á‰∫ã‰ª∂\r" +
+    "\n‚Ä¢ ‰∏éEVE Online‰∫íÂä®Ôºå‰ΩÜ‰ª•‰∏ãÊÉÖÂÜµÈô§Â§ñÔºö\r\n    - Ë∞ÉÊï¥Â§ßÂ∞èÊàñÂ∞ÜÂÖ∂ÁΩÆ‰∫éÂâçÂè∞";
             // 
             // NameLabel
             // 
@@ -817,7 +806,7 @@ namespace EveOPreview.View
             NameLabel.Name = "NameLabel";
             NameLabel.Size = new System.Drawing.Size(293, 20);
             NameLabel.TabIndex = 3;
-            NameLabel.Text = "EVE-O Preview - ∫∫ªØ∞Ê - 20240728";
+            NameLabel.Text = "EVE-O Preview - Ê±âÂåñÁâà - 20240728";
             // 
             // DocumentationLink
             // 
@@ -836,7 +825,7 @@ namespace EveOPreview.View
             // 
             this.NotifyIcon.ContextMenuStrip = this.TrayMenu;
             this.NotifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("NotifyIcon.Icon")));
-            this.NotifyIcon.Text = "EVE-O Preview - ∫∫ªØ∞Ê - 20240728";
+            this.NotifyIcon.Text = "EVE-O Preview - Ê±âÂåñÁâà - 20240728";
             this.NotifyIcon.Visible = true;
             this.NotifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.RestoreMainForm_Handler);
             // 
@@ -859,12 +848,11 @@ namespace EveOPreview.View
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(490, 301);
             this.Controls.Add(ContentTabControl);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(0);
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "EVE-O Preview - ∫∫ªØ∞Ê - 20240728";
+            this.Text = "EVE-O Preview - Ê±âÂåñÁâà - 20240728";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormClosing_Handler);
             this.Load += new System.EventHandler(this.MainFormResize_Handler);
@@ -931,7 +919,6 @@ namespace EveOPreview.View
 		private CheckBox ShowThumbnailFramesCheckBox;
 		private CheckedListBox ThumbnailsList;
 		private LinkLabel DocumentationLink;
-		private Label VersionLabel;
 		private CheckBox MinimizeInactiveClientsCheckBox;
 	}
 }

@@ -203,7 +203,7 @@ namespace EveOPreview.View
 
 		public void SetVersionInfo(string version)
 		{
-			this.VersionLabel.Text = version;
+			//this.VersionLabel.Text = version;
 		}
 
 		public void SetDocumentationUrl(string url)
