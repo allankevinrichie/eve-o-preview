@@ -130,7 +130,7 @@ namespace EveOPreview.Configuration.Implementation
 		[JsonProperty]
 		private Dictionary<string, bool> DisableThumbnail { get; set; }
 		[JsonProperty]
-		private List<string> PriorityClients { get; set; }
+        private List<string> PriorityClients { get; set; }
 
 		public Point GetDefaultThumbnailLocation()
 		{

@@ -34,7 +34,9 @@ namespace EveOPreview.Services.Implementation
 		private IProcessInfo GetCurrentProcessInfo()
 		{
 			var currentProcess = Process.GetCurrentProcess();
-			return new ProcessInfo(currentProcess.MainWindowHandle, currentProcess.MainWindowTitle);
+			var title = currentProcess.MainWindowTitle.Contains("-") ? currentProcess.MainWindowTitle.Split('-')[1] : currentProcess.MainWindowTitle;
+
+            return new ProcessInfo(currentProcess.MainWindowHandle, title);
 		}
 
 		public IProcessInfo GetMainProcess()
@@ -88,7 +90,7 @@ namespace EveOPreview.Services.Implementation
 					continue; // No need to monitor non-visual processes
 				}
 
-				string mainWindowTitle = process.MainWindowTitle;
+				string mainWindowTitle = process.MainWindowTitle.Contains("-") ? process.MainWindowTitle.Split('-')[1] : process.MainWindowTitle;
 				this._processCache.TryGetValue(mainWindowHandle, out string cachedTitle);
 
 				if (cachedTitle == null)
