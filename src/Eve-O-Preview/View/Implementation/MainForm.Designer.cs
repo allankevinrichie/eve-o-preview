@@ -157,7 +157,7 @@ namespace EveOPreview.View
             TitleMenuItem.Enabled = false;
             TitleMenuItem.Name = "TitleMenuItem";
             TitleMenuItem.Size = new System.Drawing.Size(279, 22);
-            TitleMenuItem.Text = "EVE-O Preview - 汉化版 - 20240728";
+            TitleMenuItem.Text = "EVE-O Preview - 曙光命运之手军团汉化版 - 20240826";
             // 
             // SeparatorMenuItem
             // 
@@ -806,7 +806,7 @@ namespace EveOPreview.View
             NameLabel.Name = "NameLabel";
             NameLabel.Size = new System.Drawing.Size(293, 20);
             NameLabel.TabIndex = 3;
-            NameLabel.Text = "EVE-O Preview - 汉化版 - 20240728";
+            NameLabel.Text = "EVE-O Preview - 曙光命运之手军团汉化版 - 20240826";
             // 
             // DocumentationLink
             // 
@@ -825,7 +825,7 @@ namespace EveOPreview.View
             // 
             this.NotifyIcon.ContextMenuStrip = this.TrayMenu;
             this.NotifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("NotifyIcon.Icon")));
-            this.NotifyIcon.Text = "EVE-O Preview - 汉化版 - 20240728";
+            this.NotifyIcon.Text = "EVE-O Preview - 曙光命运之手军团汉化版 - 20240826";
             this.NotifyIcon.Visible = true;
             this.NotifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.RestoreMainForm_Handler);
             // 
@@ -852,7 +852,7 @@ namespace EveOPreview.View
             this.Margin = new System.Windows.Forms.Padding(0);
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "EVE-O Preview - 汉化版 - 20240728";
+            this.Text = "EVE-O Preview - 曙光命运之手军团汉化版 - 20240826";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormClosing_Handler);
             this.Load += new System.EventHandler(this.MainFormResize_Handler);
